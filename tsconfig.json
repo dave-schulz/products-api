@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false,
+    "noUnusedLocals": false,
+    "noImplicitReturns": false,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
